@@ -1,5 +1,4 @@
-##/etc/default >curl  --insecure -u arvind75:cloudera "http://172.31.3.236:7180/api/v2/cm/deployment"
-<p>
+<p>/etc/default >curl  --insecure -u arvind75:cloudera "http://172.31.3.236:7180/api/v2/cm/deployment"
 {
   "timestamp" : "2016-09-21T17:32:18.631Z",
   "clusters" : [ {
