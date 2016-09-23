@@ -36,38 +36,20 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql> create database rman DEFAULT CHARACTER SET utf8;
 Query OK, 1 row affected (0.00 sec)
 
-mysql> grant all on rman.* TO 'rman'@'%' IDENTIFIED BY 'rman_password';
-Query OK, 0 rows affected (0.00 sec)
-
 mysql> create database sentry DEFAULT CHARACTER SET utf8;
 Query OK, 1 row affected (0.00 sec)
-
-mysql> grant all on sentry.* TO 'sentry'@'%' IDENTIFIED BY 'sentry_password';
-Query OK, 0 rows affected (0.00 sec)
 
 mysql> create database hue DEFAULT CHARACTER SET utf8;
 Query OK, 1 row affected (0.00 sec)
 
-mysql> grant all on hue.* TO 'hue'@'%' IDENTIFIED BY 'hue_password';
-Query OK, 0 rows affected (0.00 sec)
-
 mysql> create database oozie DEFAULT CHARACTER SET utf8;
 Query OK, 1 row affected (0.00 sec)
-
-mysql> grant all on oozie.* TO 'oozie'@'%' IDENTIFIED BY 'oozie_password';
-Query OK, 0 rows affected (0.00 sec)
 
 mysql> create database scm DEFAULT CHARACTER SET utf8;
 Query OK, 1 row affected (0.00 sec)
 
-mysql> grant all on scm.* TO 'scm'@'%' IDENTIFIED BY 'scm_password';
-Query OK, 0 rows affected (0.00 sec)
-
 mysql> create database hive DEFAULT CHARACTER SET utf8;
 Query OK, 1 row affected (0.00 sec)
-
-mysql> grant all on hive.* TO 'hive'@'%' IDENTIFIED BY 'hive_password';
-Query OK, 0 rows affected (0.00 sec)
 
 mysql>
 
