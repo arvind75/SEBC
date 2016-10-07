@@ -1,3 +1,4 @@
 <p>*/admin@EXAMPLE.COM     *
 cloudera-scm@CTL.COM admilc</p>
 
+## Notice you have ACLs for two Kerberos realms. The first line is a potential exploit.
